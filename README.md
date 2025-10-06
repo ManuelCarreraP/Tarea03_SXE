@@ -29,3 +29,16 @@ docker ps -a
 ```
 <img width="1127" height="137" alt="image" src="https://github.com/user-attachments/assets/e8bdec7c-f449-467d-9e17-b5b4804e12cd" />
 Podemos ver que el nombre asignado automáticamente es: practical_poitras
+
+## Apartado 3
+Con este comando crearemos un contenedor con el nombre 'dam_alp1'.
+```bash
+docker run -it --name dam_alp1 alpine sh
+```
+Explicacion parámetros:  
+· **-it**: permite abrir una sesión interactiva.  
+· **--name dam_alp1**: asigna nombre al contenedor.  
+· **sh**: abre la shell dentro del contenedor.  
+
+<img width="710" height="54" alt="image" src="https://github.com/user-attachments/assets/0c049fe6-8de0-4a59-b255-828e41a6a6af" />
+
