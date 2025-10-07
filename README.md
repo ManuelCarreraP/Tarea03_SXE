@@ -55,3 +55,14 @@ A continuacion le haremos ping a google.com
 ping -c 4 google.com
 ```
 <img width="612" height="243" alt="Captura desde 2025-10-06 11-49-53" src="https://github.com/user-attachments/assets/73fa8b72-b966-42f4-981e-bf1151b612b8" />
+
+## Apartado 5
+Creamos el segundo contenedor con el mismo comando que usamos en el anterior:
+```bash
+docker run -it --name dam_alp2 alpine sh
+```
+A continuacion haremos ping a la IP del primer contenedor (**172.17.0.2**) desde nuestro nuevo contenedor que tiene la IP **172.17.0.3**  
+```bash
+ping -c 4 172.17.0.2
+```
+<img width="616" height="287" alt="image" src="https://github.com/user-attachments/assets/1f4898d5-006d-4cb9-a2e9-833727085698" />
