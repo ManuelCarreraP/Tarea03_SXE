@@ -81,8 +81,16 @@ docker ps
 
 
 ## Apartado 7
-Para visualizar la memoria usada es ejecutando el comando 
+Para visualizar la memoria usada ejecutaremos el siguiente comando:
 ```bash
 docker system df
 ```
 <img width="1009" height="688" alt="image" src="https://github.com/user-attachments/assets/3171eab7-add6-4938-8417-098b52d5aa71" />
+
+## Apartado 8
+Con los dos contenedores iniciados, el siguiente comando nos permite ver en tiempo real el uso de CPU, RAM y red de los contenedores:
+```bash
+docker stats
+```
+<img width="916" height="120" alt="image" src="https://github.com/user-attachments/assets/fd896a0b-2c68-4dbc-8b94-50f7ab78bd0c" />
+
