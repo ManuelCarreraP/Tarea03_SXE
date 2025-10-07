@@ -56,6 +56,8 @@ ping -c 4 google.com
 ```
 <img width="612" height="243" alt="Captura desde 2025-10-06 11-49-53" src="https://github.com/user-attachments/assets/73fa8b72-b966-42f4-981e-bf1151b612b8" />
 
+#### Para salir del terminal sin cerrar el contenedor tendremos que presionar Ctrl + P seguido de  Ctrl + Q
+
 ## Apartado 5
 Creamos el segundo contenedor con el mismo comando que usamos en el anterior:
 ```bash
@@ -66,3 +68,13 @@ A continuacion haremos ping a la IP del primer contenedor (**172.17.0.2**) desde
 ping -c 4 172.17.0.2
 ```
 <img width="616" height="287" alt="image" src="https://github.com/user-attachments/assets/1f4898d5-006d-4cb9-a2e9-833727085698" />
+
+## Apartado 6
+Para salir del terminal es simplemente poniendo exit.
+Luego ejecutaremos un docker ps para ver que paso con ese contenedor, y como podemos ver se cerró:
+```bash
+exit
+
+docker ps
+```  
+<img width="784" height="98" alt="image" src="https://github.com/user-attachments/assets/0119cdcf-aa60-4a40-8632-6c19873b9369" />
