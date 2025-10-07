@@ -78,3 +78,11 @@ exit
 docker ps
 ```  
 <img width="784" height="98" alt="image" src="https://github.com/user-attachments/assets/0119cdcf-aa60-4a40-8632-6c19873b9369" />
+
+
+## Apartado 7
+Para visualizar la memoria usada es ejecutando el comando 
+```bash
+docker system df
+```
+<img width="1009" height="688" alt="image" src="https://github.com/user-attachments/assets/3171eab7-add6-4938-8417-098b52d5aa71" />
