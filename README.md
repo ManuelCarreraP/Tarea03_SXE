@@ -42,3 +42,16 @@ Explicacion parámetros:
 
 <img width="710" height="54" alt="image" src="https://github.com/user-attachments/assets/0c049fe6-8de0-4a59-b255-828e41a6a6af" />
 
+## Apartado 4
+Primero si no tenemos la sesión abierta del contenedor dam_alp1 la abrimos con el siguiente comando:
+```bash
+docker start -ai dam_apl1
+```  
+Ahora ejecutamos ip addr para conocer la IP, en mi caso **172.17.0.2/16**
+<img width="875" height="735" alt="Captura desde 2025-10-07 08-48-09" src="https://github.com/user-attachments/assets/c25ac108-119c-4e5f-95b8-94a2cd0ee896" />
+<br><br>
+A continuacion le haremos ping a google.com
+```bash
+ping -c 4 google.com
+```
+<img width="612" height="243" alt="Captura desde 2025-10-06 11-49-53" src="https://github.com/user-attachments/assets/73fa8b72-b966-42f4-981e-bf1151b612b8" />
